@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f7f9;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0;
+}
+
+.menu-items li {
+  margin-right: 10px;
+}
