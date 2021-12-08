@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -26,4 +26,37 @@ a {
 
 .menu-items li {
   margin-right: 10px;
+}
+
+.welcome {
+  background: rgb(255, 255, 255) url("./images/Header bg.svg") no-repeat;
+  background-size: cover;
+  padding: 24px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  width: 920px;
+  height: 122px;
+  margin-top: 80px;
+}
+
+.desc-text {
+  width: 920px;
+  height: 98px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
 }
