@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -29,7 +29,7 @@ a {
 }
 
 .welcome {
-  background: rgb(255, 255, 255) url("./images/Header bg.svg") no-repeat;
+  background: rgb(255, 255, 255) url('./images/Header bg.svg') no-repeat;
   background-size: cover;
   padding: 24px;
   width: 100%;
@@ -93,6 +93,7 @@ a {
   background: #ebebff !important;
   margin-bottom: 20px;
 }
+
 .btn {
   font-style: normal;
   font-weight: 500;
@@ -104,7 +105,7 @@ a {
   letter-spacing: 0.03em;
   border: 1px solid #dfe1e6;
   border-radius: 8px;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 .project-container {
@@ -112,6 +113,16 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card-caption span,
+img {
+  margin-right: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
 }
 
 .card {
@@ -129,9 +140,10 @@ a {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  margin: 12px 0px;
+  margin: 12px 0;
   color: #091e42;
 }
+
 .card > img {
   width: 100%;
   margin-right: 15px;
@@ -145,22 +157,11 @@ a {
   margin-bottom: 10px;
 }
 
-.card-caption span,
-img {
-  margin-right: 5px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
-  color: #6b778c;
-}
 .card-text {
-  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin: 24px 0px;
+  margin: 24px 0;
 }
